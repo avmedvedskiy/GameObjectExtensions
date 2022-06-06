@@ -26,6 +26,16 @@ public static class GameObjectTweenExtensions
 
         return t;
     }
+
+    /// <summary>
+    /// Animated destroy of gameobject with scale from one to zero
+    /// </summary>
+    public static Tween TweenDestroy(this GameObject gameObject, bool value, float duration = DEFAULT_TWEEN_DURATION)
+    {
+        var t = gameObject.SetActiveTween(false, duration);
+            t.OnComplete(()=>Object.Destroy(gameObject));
+        return t;
+    }
     
     /// <summary>
     /// Animated activation of CanvasGroup with Fade from one to zero
