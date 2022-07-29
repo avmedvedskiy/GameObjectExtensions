@@ -52,11 +52,13 @@ namespace UnityEngine.UI
                 _upTween.Restart();
             }
         }
-
+#if UNITY_EDITOR
         protected override void Reset()
         {
             base.Reset();
             transition = Transition.None;
         }
+#endif
+
     }
 }
