@@ -26,6 +26,9 @@ namespace UnityEngine.UI
 
         public override void OnPointerDown(PointerEventData eventData)
         {
+            if (!interactable)
+                return;
+
             base.OnPointerDown(eventData);
             if (_downTween == null)
             {
@@ -41,6 +44,9 @@ namespace UnityEngine.UI
 
         public override void OnPointerUp(PointerEventData eventData)
         {
+            if (!interactable)
+                return;
+
             if (_upTween == null)
             {
                 _upTween = transform.DOScale(InitialScale, _duration)
@@ -59,6 +65,5 @@ namespace UnityEngine.UI
             transition = Transition.None;
         }
 #endif
-
     }
 }
