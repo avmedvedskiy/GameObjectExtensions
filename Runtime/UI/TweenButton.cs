@@ -1,4 +1,4 @@
-﻿using DG.Tweening;
+using DG.Tweening;
 using UnityEngine.EventSystems;
 
 namespace UnityEngine.UI
@@ -57,6 +57,15 @@ namespace UnityEngine.UI
             {
                 _upTween.Restart();
             }
+        }
+
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            _upTween.Kill();
+            _downTween.Kill();
+            _downTween = null;
+            _upTween = null;
         }
 #if UNITY_EDITOR
         protected override void Reset()
