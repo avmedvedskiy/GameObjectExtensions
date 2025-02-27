@@ -1,10 +1,15 @@
 {
-  "name": "com.avmedvedskiy.gameobjectextensions",
+  "name": "com.avmedvedskiy.unity.gameobjectextensions",
   "displayName": "Game Object Extensions",
   "version": "1.0.4",
   "unity": "2018.4",
-  "author": "avmedvedskiy",
+	"author": {
+    "name": "avmedvedskiy",
+    "email": "a.v.medvedskiy@gmail.com",
+    "url": "https://github.com/avmedvedskiy"
+  },
   "description": "Game Object Extensions",
+  "licensesUrl": "https://github.com/avmedvedskiy/GameObjectExtensions?tab=readme-ov-file#readme",
   "keywords": [
     "extensions"
   ]
