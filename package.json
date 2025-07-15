@@ -1,7 +1,7 @@
 {
   "name": "com.avmedvedskiy.unity.gameobjectextensions",
   "displayName": "Game Object Extensions",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "unity": "2018.4",
 	"author": {
     "name": "avmedvedskiy",
@@ -11,5 +11,8 @@
   "description": "Game Object Extensions",
   "keywords": [
     "extensions"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  }
 }
