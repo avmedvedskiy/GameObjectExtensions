@@ -13,6 +13,6 @@
     "extensions"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.com"
+    "registry": "https://registry.npmjs.com"
   }
 }
