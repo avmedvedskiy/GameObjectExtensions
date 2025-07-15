@@ -1,7 +1,7 @@
 {
   "name": "com.avmedvedskiy.unity.gameobjectextensions",
   "displayName": "Game Object Extensions",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "unity": "2018.4",
 	"author": {
     "name": "avmedvedskiy",
@@ -9,8 +9,10 @@
     "url": "https://github.com/avmedvedskiy"
   },
   "description": "Game Object Extensions",
-  "licensesUrl": "https://github.com/avmedvedskiy/GameObjectExtensions?tab=readme-ov-file#readme",
   "keywords": [
     "extensions"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com"
+  }
 }
