@@ -11,8 +11,5 @@
   "description": "Game Object Extensions",
   "keywords": [
     "extensions"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com"
-  }
+  ]
 }
